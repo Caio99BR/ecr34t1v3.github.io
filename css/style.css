@@ -223,7 +223,11 @@ p {
 .botao_redes_sociais:hover {
 	color: grey;
 }
-
+.imagem_home {
+	border-radius: 50%;
+	overflow: hidden;
+	width: 300px
+}
 /*
 .galeria {
 	margin: 40px auto;
