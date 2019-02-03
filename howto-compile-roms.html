@@ -56,7 +56,7 @@
 		<!-- Bloco tipo post -->
 		<div class="sombra bloco_textos">
 		
-			<p class="m_black sombra titulo_textos">How To Compile ROMs</p>
+			<p class="m_black sombra titulo_textos">Original Autor Notes - SaurabhCR7@XDA</p>
 			<div class="sombra bloco_textos">
 				<center>
 				<br />
@@ -69,24 +69,47 @@
 					same thing. I have tried to make this guide easy to understand.<br />
 					Please feel free to PM if you have any doubts!<br />
 					And if you built a rom by following this guide then please press
-					the thanks button, it will motivate me." - SaurabhCR7@XDA<br />
+					the thanks button, it will motivate me."<br />
 					<br />
-					<br />
-					For Whom This Guide Is For<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">Who is this guide for?</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					1. Who do not have a PC which meets required requiements for building a rom<br />
 					2. Who cannot download the sources which might be upto 10GB<br />
 					3. Who is building a rom for the first time<br />
 					<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">Pre-Requisites</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
-					Prerequisites<br />
 					1. Android Phone<br />
 					2. A decent internet connection<br />
 					3. A debit/credit card<br />
 					4. Brain<br />
 					<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">Contents</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
-					Contents<br />
 					1. Making a Google Cloud Account<br />
 					2. Setting up the VM (Virtual Machine) on your phone<br />
 					3. Setting up the build environment<br />
@@ -95,8 +118,15 @@
 					6. Building the rom<br />
 					7. Uploading the ROM in Google Drive<br />
 					<br />
-					<br />
-					1. Making A Google Cloud Account<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">1. Making A Google Cloud Account</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					NOTE: You will need a credit/debit card for making an account
 					and it is free to use Google Cloud for one year only.<br />
@@ -105,8 +135,15 @@
 					STEP 2: Click on Free Trial.<br />
 					STEP 3: Login with your Google account username and password.<br />
 					<br />
-					<br />
-					2. Setting up the VM (Virtual Machine) on your phone<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">2. Setting up the VM (Virtual Machine) on your phone</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					STEP 1: Download Juice SSH app from here.<br />
 					STEP 2: Open Juice SSH app and click on "Connections".<br />
@@ -140,8 +177,15 @@
 					STEP 10: Now click on the connection you just created.
 					This will open the terminal on which you need to work.<br />
 					<br />
-					<br />
-					3. Setting up the build environment
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">3. Setting up the build environment</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					NOTE:You just need to copy and paste the below codes one by one.
 					<br />
@@ -158,8 +202,15 @@
 					10. chmod a+x ~/bin/repo<br />
 					11. cd ~/android/lineage<br />
 					<br />
-					<br />
-					4. Initializing and syncing the repo
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">4. Initializing and syncing the repo</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					I. repo init -u https://github.com/LineageOS/android.git -b cm-14.1<br />
 					<br />
@@ -180,8 +231,15 @@
 					<br />
 					Go get a coffee till the source is syncinc. It will take time depending on your internet speed.<br />
 					<br />
-					<br />
-					5. Cloning the device,kernel and vendor tree<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">5. Cloning the device,kernel and vendor tree</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					I. git clone device_tree_link_here -b branch_name_here device/manufacturer_name_here/device_name_here<br />
 					Eg: git clone https://github.com/LineageOS/android...iaomi_mido.git -b cm-14.1 device/xiaomi/mido<br />
@@ -206,8 +264,15 @@
 					If you can't find any tree with the above methods, then
 					simply google search that tree for your device!!!!<br />
 					<br />
-					<br />
-					6. Building the rom<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">6. Building the rom</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					1. export USE_CCACHE=1<br />
 					2. prebuilts/misc/linux-x86/ccache/ccache -M 50G<br />
@@ -220,11 +285,18 @@
 					Now it will take approx 7-8 hrs or more depending upon your
 					internet speed.Go get a sleep till then.<br />
 					<br />
-					<br />
-					7. Uploading the ROM in Google Drive<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">7. Uploading the ROM in Google Drive</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					1. cd ~<br />
-					2. wget https://docs.google.com/uc?id=0B3X9G...xport=download<br />
+					2. wget https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE&export=download<br />
 					3. mv uc\?id\=0B3X9GlR6EmbnWksyTEtCM0VfaFE gdrive<br />
 					4. chmod +x gdrive<br />
 					5. sudo install gdrive /usr/local/bin/gdrive<br />
@@ -237,18 +309,28 @@
 					paste it in the terminal.<br />
 					Now your rom will start uploading in your Google Drive.<br />
 					<br />
-					<br />
-					Congratulations You Built Your First ROM!!<br />
-					<br />
-					<br />
-					Credits<br />
+				</p>
+				</center>
+			</div>
+			
+			<p class="m_black sombra titulo_textos">
+				<br />
+				Congratulations You Built Your First ROM!!<br />
+				<br />
+			</p>
+			
+			<p class="m_black sombra titulo_textos">Credits</p>
+			<div class="sombra bloco_textos">
+				<center>
+				<br />
+				<p>
 					<br />
 					SaurabhCR7<br />
 					@nitin.chobhe (For his images and guide for google cloud)<br />
 					Akhil Narang(For his Scripts)<br />
 					Google<br />
 					XDA<br />
-					
+
 				</p>
 				</center>
 			</div>
